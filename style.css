@@ -15,7 +15,9 @@
 body {
   color: var(--white);
   background-color: var(--dark-grey);
+
 }
+
 
 .title-container {
   margin: 10px 0;
@@ -23,6 +25,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  font-family: "Fredoka", sans-serif;
+ 
 }
 
 .title {
@@ -39,13 +43,19 @@ body {
   width: 150px;
   height: 10px;
   background-color: var(--yellow);
+  
 }
 
 .dropdown-container {
   width: 50%;
   margin: 40px auto;
   position: relative;
+
+ 
 }
+
+
+
 
 select {
   display: block;
@@ -86,6 +96,9 @@ select {
 #current-date {
   font-size: 2rem;
   text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+
 }
 
 @media (max-width: 375px) {
